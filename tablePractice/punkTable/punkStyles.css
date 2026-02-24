@@ -1,0 +1,81 @@
+html{
+    font-family: "Helvetica", "Arial", sans-serif;
+}
+
+
+/*
+     Second we need to change the spacing
+     by default html tables look cramped
+*/
+
+
+table{
+    table-layout: fixed; /* makes the table behave predicatbly so we can size our columns according to their headings */
+    width: 90%;
+    margin: 10px auto;
+    border-collapse: collapse; /* we must include this one*/
+    border-top: 1px solid #999999;
+    border-bottom: 1px solid #999999;
+}
+
+th,
+td{
+    padding:0.6em; /* gives the text some space to breathe */
+}
+
+
+/* we must allign text to the left and numbers to the right*/
+
+
+
+/* 
+We should also make sure that our data items are aligned to the top of their cells, rather than the middle.
+*/
+
+th,
+td {
+  vertical-align: top;  
+  padding: 0.3em;
+}
+
+tr :nth-child(2),
+tr :nth-child(3) {
+  text-align: right;
+  width: 15%;
+}
+
+tr :nth-child(1),
+tr :nth-child(4) {
+  text-align: left;
+  width: 35%;
+}
+
+tfoot tr :nth-child(1) {
+  text-align: right;
+}
+
+/* 
+We are using the :nth-child pseudo-class
+It allows us to select a specific child element by number
+*/
+
+tfoot tr :nth-child(2) {
+  text-align: left;
+}
+
+
+tfoot {
+  border-top: 1px solid #999999;
+}
+
+/* zebra striping */
+tbody tr:nth-child(odd){
+    background-color: #eeeeee;
+}
+
+caption {
+  padding: 1em;
+  font-style: italic;
+  caption-side: bottom; /* Position of the caption*/
+  letter-spacing: 1px;
+}
