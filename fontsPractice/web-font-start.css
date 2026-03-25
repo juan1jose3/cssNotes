@@ -1,0 +1,44 @@
+/* General setup */
+
+@font-face {
+  font-family: "SourceSansPro-ExtraLightIt";
+  src: url("fonts/source-sans-pro/SourceSansPro-ExtraLight.otf");
+}
+
+
+@font-face{
+  font-family:"SourceSansPro-Bold";
+  src: url("fonts/source-sans-pro/SourceSansPro-Bold.otf")
+}
+
+html {
+  font-size: 10px;
+  margin: 0;
+  font-family: "SourceSansPro-ExtraLightIt",sans-serif;
+}
+
+body {
+  width: 80%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Typography */
+
+h1,h2{
+  font-family: "SourceSansPro-Bold";
+}
+
+h1 {
+  font-size: 3.2rem;
+}
+
+h2 {
+  font-size: 2.4rem;
+}
+
+p {
+  font-size: 1.4rem;
+  line-height: 1.6;
+  word-spacing: 0.6rem;
+}
