@@ -1,20 +1,21 @@
 /* General setup */
 
 @font-face {
-  font-family: "SourceSansPro-ExtraLightIt";
-  src: url("fonts/source-sans-pro/SourceSansPro-ExtraLight.otf");
+  font-family: "SourceSansPro-Black";
+  src: url("fonts/source-sans-pro/SourceSansPro-Black.woff2");
 }
 
 
 @font-face{
-  font-family:"SourceSansPro-Bold";
-  src: url("fonts/source-sans-pro/SourceSansPro-Bold.otf")
+  font-family:"SourceSansPro-ExtraLightIt";
+  src: url("fonts/source-sans-pro/SourceSansPro-ExtraLightIt.woff2")
 }
 
 html {
-  font-size: 10px;
+  font-size: 11px;
   margin: 0;
   font-family: "SourceSansPro-ExtraLightIt",sans-serif;
+
 }
 
 body {
@@ -26,7 +27,7 @@ body {
 /* Typography */
 
 h1,h2{
-  font-family: "SourceSansPro-Bold";
+  font-family: "SourceSansPro-Black";
 }
 
 h1 {
