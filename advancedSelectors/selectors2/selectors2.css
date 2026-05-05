@@ -1,0 +1,21 @@
+body {
+  font: 1.2em / 1.5 sans-serif;
+}
+/* Add styles here */
+
+
+.container #special{
+    background-color: yellow;
+}
+
+.container .alert{
+    border:2px gray solid;
+}
+
+.container .alert.stop{
+    background-color: red;
+}
+
+.container .alert.go{
+    background-color: green;
+}
